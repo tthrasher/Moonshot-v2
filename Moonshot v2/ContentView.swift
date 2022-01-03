@@ -14,7 +14,8 @@ struct ContentView: View {
             Image("landscape_4")
                 .resizable()
                 .scaledToFit()
-                .frame(width: geo.size.width * 0.8, height: 300)
+                .frame(width: geo.size.width * 0.8)
+                .frame(width: geo.size.width, height: geo.size.height)
         }
     }
 }
