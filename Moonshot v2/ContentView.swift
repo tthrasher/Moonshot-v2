@@ -11,13 +11,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         let layout = [
-            GridItem(.fixed(80)),
-            GridItem(.fixed(80)),
-            GridItem(.fixed(80))
+            GridItem(.adaptive(minimum: 80, maximum: 120)),
+            GridItem(.adaptive(minimum: 80, maximum: 120)),
+            GridItem(.adaptive(minimum: 80, maximum: 120))
         ]
         
-        ScrollView {
-            LazyVGrid(columns: layout) {
+        ScrollView(.horizontal) {
+            LazyHGrid(rows: layout) {
                 ForEach(0..<1000) {
                     Text("Item \($0)")
                 }
