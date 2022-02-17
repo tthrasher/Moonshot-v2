@@ -3,6 +3,8 @@
 //  Moonshot v2
 //  New version is because the lesson has changed + I had stopped in the middle of the project. Starting over seemed ideal!
 //
+//  Content is sourced from Wikipedia under a Creative Commons license: https://creativecommons.org/licenses/by-sa/3.0/
+//
 //  Created by Terry Thrasher on 2022-01-02.
 //
 
