@@ -14,6 +14,7 @@
 		FC6DF0C727BF0D410026A625 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = FC6DF0C627BF0D410026A625 /* astronauts.json */; };
 		FC6DF0C927BF0D4A0026A625 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = FC6DF0C827BF0D4A0026A625 /* missions.json */; };
 		FC6DF0CB27BF16670026A625 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6DF0CA27BF16670026A625 /* Astronaut.swift */; };
+		FC6DF0CD27BF1A800026A625 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6DF0CC27BF1A800026A625 /* Bundle-Decodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		FC6DF0C627BF0D410026A625 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
 		FC6DF0C827BF0D4A0026A625 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		FC6DF0CA27BF16670026A625 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		FC6DF0CC27BF1A800026A625 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				FC6627F8278276A1006EE4C6 /* Moonshot_v2App.swift */,
 				FC6627FA278276A1006EE4C6 /* ContentView.swift */,
 				FC6DF0CA27BF16670026A625 /* Astronaut.swift */,
+				FC6DF0CC27BF1A800026A625 /* Bundle-Decodable.swift */,
 				FC6DF0C627BF0D410026A625 /* astronauts.json */,
 				FC6DF0C827BF0D4A0026A625 /* missions.json */,
 				FC6627FC278276A4006EE4C6 /* Assets.xcassets */,
@@ -151,6 +154,7 @@
 				FC6DF0CB27BF16670026A625 /* Astronaut.swift in Sources */,
 				FC6627FB278276A1006EE4C6 /* ContentView.swift in Sources */,
 				FC6627F9278276A1006EE4C6 /* Moonshot_v2App.swift in Sources */,
+				FC6DF0CD27BF1A800026A625 /* Bundle-Decodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
