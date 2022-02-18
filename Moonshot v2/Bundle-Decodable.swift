@@ -21,7 +21,7 @@ extension Bundle {
         
         let decoder = JSONDecoder()
         
-        guard let loaded = try? decoder.decode([String: Astronaut].self, from data)
+        guard let loaded = try? decoder.decode([String: Astronaut].self, from: data)
         else {
             fatalError("Failed to decode \(file) from bundle.")
         }
